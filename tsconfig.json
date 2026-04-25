@@ -22,7 +22,9 @@
 		"noPropertyAccessFromIndexSignature": true,
 		// Enable incremental compilation to speed up rebuilds during local development
 		"incremental": true,
-		"tsBuildInfoFile": "./.tsbuildinfo"
+		"tsBuildInfoFile": "./.tsbuildinfo",
+		// Helps catch accidental use of 'any' — useful while learning the codebase
+		"noImplicitAny": true
 	},
 	"include": [
 		"src/**/*.ts"
